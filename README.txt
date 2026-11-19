@@ -78,6 +78,4 @@ Open for modeling shoots, bridal and fashion collaborations, and brand content.
 
 Instagram: [@kanishka.geetha](https://www.instagram.com/kanishka.geetha)
 
-## License
-
-© 2026 Kanishka Geetha. All rights reserved. The photos and text on this site may not be copied or reused without permission.
+2026 Kanishka Geetha. All rights reserved. The photos and text on this site may not be copied or reused without permission.
