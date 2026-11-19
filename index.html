@@ -175,5 +175,30 @@ footer{padding:26px 6vw;text-align:center;font-size:14px;color:var(--muted)}
 
 <footer>-> Kanishka Geetha <-</footer>
 
+<script>
+    // Disable right-click
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+
+    // Disable image dragging
+    document.addEventListener('dragstart', function(e) {
+        if (e.target.tagName === 'IMG') {
+            e.preventDefault();
+        }
+    });
+</script>
+
+<script>
+document.addEventListener('keydown', function(e) {
+    if (
+        (e.ctrlKey && ['s', 'u'].includes(e.key.toLowerCase())) ||
+        e.key === 'PrintScreen'
+    ) {
+        e.preventDefault();
+    }
+});
+</script>
+
 </body>
 </html>
